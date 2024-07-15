@@ -2,7 +2,7 @@ package com.curso.v0;
 
 import java.util.Objects;
 
-public class Student extends Object {
+public class Student {
 	
 	String nombre;
 	int edad;
