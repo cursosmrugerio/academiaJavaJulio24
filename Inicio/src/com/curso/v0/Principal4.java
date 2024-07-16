@@ -26,6 +26,8 @@ public class Principal4 {
 		System.out.println("sb: "+sb); //Hola Mundo
 		
 		System.out.println("*********");
+	
+		String String = "String";
 		
 		return cadena;
 		
