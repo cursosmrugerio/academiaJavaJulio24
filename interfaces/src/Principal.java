@@ -54,7 +54,6 @@ public class Principal {
 		animal = getAnimal();
 		animal.getSound();
 
-
 	}
 
 	private static Animal getAnimal() {
