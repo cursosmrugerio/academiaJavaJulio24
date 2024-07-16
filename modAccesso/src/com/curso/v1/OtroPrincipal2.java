@@ -23,5 +23,6 @@ public class OtroPrincipal2 extends Student {
 	
 	
 	
+	
 
 }
