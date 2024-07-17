@@ -10,6 +10,7 @@ public class Principal {
 									new Resta(8,4),
 									new Potencia(8,4),
 									new Multi(8,4),
+									new Suma(18,14),
 									new Division(8,4)};
 		show(operaciones);
 	}
@@ -19,6 +20,8 @@ public class Principal {
 		for(Operacion o:opes) {
 			System.out.println(o);
 			System.out.println(o.ejecuta());
+			if (o instanceof Suma)
+				System.out.println(((Suma)o).ejecutaSuma());
 		}
 	}
 

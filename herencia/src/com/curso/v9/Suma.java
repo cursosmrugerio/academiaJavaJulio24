@@ -10,5 +10,9 @@ public class Suma extends OperacionAbs {
 	public int ejecuta() {
 		return x+y;
 	}
+	
+	public int ejecutaSuma() {
+		return 99999;
+	}
 
 }
