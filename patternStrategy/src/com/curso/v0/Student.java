@@ -6,6 +6,7 @@ public class Student {
 	String nombre;
 	int edad;
 	StringBuilder matricula;
+	
 	private Computadora compu;
 
 	public Student(String nombre, int edad) {
