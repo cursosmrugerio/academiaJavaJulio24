@@ -1,6 +1,6 @@
 package com.curso.conStrategy.v0;
 
-import com.curso.conStrategy.v0.strategy.*;
+import com.curso.conStrategy.*;
 
 public class Principal {
 	

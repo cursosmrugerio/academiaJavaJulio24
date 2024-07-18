@@ -1,14 +1,14 @@
 package com.curso.conStrategy.v2;
 
-import com.curso.conStrategy.v0.strategy.ComportamientoVolar;
-import com.curso.conStrategy.v0.strategy.SiVolar;
+import com.curso.conStrategy.ComportamientoVolar;
+import com.curso.conStrategy.*;
 
 public abstract class Ave {
 	
 	ComportamientoVolar cv;
 	
 	Ave(){
-		cv = new SiVolar();
+		cv = new NoVolar();
 	}
 	
 	void volar() {

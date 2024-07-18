@@ -1,6 +1,6 @@
 package com.curso.conStrategy.v0;
 
-import com.curso.conStrategy.v0.strategy.ComportamientoVolar;
+import com.curso.conStrategy.ComportamientoVolar;
 
 public abstract class Ave {
 	

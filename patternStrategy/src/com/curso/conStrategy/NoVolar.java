@@ -1,4 +1,4 @@
-package com.curso.conStrategy.v0.strategy;
+package com.curso.conStrategy;
 
 public class NoVolar implements ComportamientoVolar {
 

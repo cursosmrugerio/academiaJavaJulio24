@@ -1,6 +1,6 @@
 package com.curso.conStrategy.v2;
 
-import com.curso.conStrategy.v0.strategy.*;
+import com.curso.conStrategy.*;
 
 public class Principal {
 	
@@ -10,6 +10,9 @@ public class Principal {
 		System.out.println(ave+"***");
 		ave.volar();
 		
+		ave.cv = new AleatorioVolar();
+		ave.volar();
+
 		ave = new Pato();
 		System.out.println(ave+"***");
 		ave.volar();
@@ -19,6 +22,9 @@ public class Principal {
 		
 		ave = new Pinguino();
 		System.out.println(ave+"***");
+		ave.volar();
+		
+		ave = null;
 		ave.volar();
 		
 	}
