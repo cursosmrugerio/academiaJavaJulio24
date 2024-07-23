@@ -7,6 +7,7 @@ public class Principal2 {
 		String str = null;
 		int i = 5;
 		
+		//     false             
 		if ( str!=null || i==str.length() )
 			System.out.println("i: "+i);
 		
