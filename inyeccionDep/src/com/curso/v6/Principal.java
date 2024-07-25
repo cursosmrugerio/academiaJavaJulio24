@@ -19,7 +19,7 @@ public class Principal {
 		
 		bec2.iniciarTrabajo();
 		
-		System.out.println(bec1.getCompu() == bec2.getCompu());
+		System.out.println(bec1.getCompu() == bec2.getCompu()); //FALSE
 
 
 		
