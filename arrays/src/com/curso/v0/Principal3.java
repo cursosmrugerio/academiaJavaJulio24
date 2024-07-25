@@ -2,7 +2,7 @@ package com.curso.v0;
 
 import java.util.Arrays;
 
-public class Principal {
+public class Principal3 {
 
 	public static void main(String[] args) {
 		
@@ -14,12 +14,7 @@ public class Principal {
 		twoA[0][1] = 2;
 		twoA[0][2] = 3;
 		
-		twoA[1] = new int[4];
-		
-		twoA[1][0] = 4;
-		twoA[1][1] = 5;
-		twoA[1][2] = 6;
-		twoA[1][3] = 7;
+		twoA[1] = new int[]{4,5,6,7};
 		
 		twoA[2] = new int[100];
 
