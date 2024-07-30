@@ -3,9 +3,6 @@ package com.curso.v7;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-import com.curso.v7A.Base;
-import com.curso.v7A.Derived;
-
 class Base {
     void show() throws IOException {
         System.out.println("Base show");
