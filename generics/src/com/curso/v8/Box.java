@@ -11,7 +11,7 @@ public class Box<T> {
 	public T getItem() throws ClassCastException {
 
 		if (item instanceof String) {
-			return (T)item; // Unsafe cast
+			return item; // Unsafe cast ??
 		}
 
 		throw new ClassCastException("Item is not a String");
