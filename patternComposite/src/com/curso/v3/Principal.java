@@ -1,19 +1,13 @@
-package com.curso.v1;
+package com.curso.v3;
 
 public class Principal {
 
 	public static void main(String[] args) {
 		
-		Component comLeaf1 = new LeafConstante(5);
-		Component comLeaf2 = new LeafConstante(2);
+		System.out.println("V3");
 		
-		Component comResta = new CompositeResta(
-				comLeaf1,
-				comLeaf2	
-			);
-		
-		System.out.println(
-				new CompositeSuma(
+		System.out.println("Resultado: "+
+				new CompositeMulti(
 						new CompositeResta(
 							new LeafConstante(1),
 							new CompositeSuma(
@@ -21,7 +15,13 @@ public class Principal {
 								new LeafConstante(4)
 							)
 						),
-						comResta
+						new CompositeSuma(
+							new LeafConstante(5),
+							new CompositeDiv(
+									new LeafConstante(6),
+									new LeafConstante(2)
+							)	
+						)
 				).getValue()
 		);
 		
