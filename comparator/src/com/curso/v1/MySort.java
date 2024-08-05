@@ -10,6 +10,12 @@ public class MySort {
 		Arrays.sort(primes);
 		
 		for (Integer p2:primes) System.out.print(p2 + " ");
+		
+		
+		int i = primes.length;
+		int i2 = "Hello World".length();
+		
+		
 	}
 
 }
